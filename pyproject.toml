@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "python-poetry-template"
+version = "0.1.0"
+description = ""
+authors = ["Nils Jørgen Mittet <nils.jorgen.mittet@nav.no>"]
+readme = "README.md"
+packages = [{ include = "python_poetry_template", from = "src" }]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pendulum = "^2.1.2"
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.4.0"
+black = "23.9.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

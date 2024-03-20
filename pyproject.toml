@@ -9,7 +9,7 @@ packages = [{ include = "python_poetry_template", from = "src" }]
 [tool.poetry.dependencies]
 python = "^3.12"
 pytest = "^7.4.4"
-black = "^23.12.1"
+black = "^24.3.0"
 
 [tool.poetry.dev-dependencies]
 
